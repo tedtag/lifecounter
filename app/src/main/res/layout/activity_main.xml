@@ -93,6 +93,11 @@
             android:paddingLeft="@dimen/player_padding"
             android:paddingRight="@dimen/player_padding"
             android:id="@+id/options_container">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Player"
+                android:id="@+id/add_player" />
         </LinearLayout>
         <LinearLayout
             android:orientation="vertical"
